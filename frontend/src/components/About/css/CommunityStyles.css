@@ -1,0 +1,150 @@
+.community_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 40px;
+}
+
+.card1 {
+    
+    width : 350px ;
+    height: 350px;
+    display: flex;
+    align-items: flex-end; 
+    border: 1px solid var(--primary-color);
+    margin-bottom: 20px;
+    background-image: url('https://idronline.org/wp-content/uploads/2021/01/Illustration-of-a-group-therapy-session_Unsplash_resized-1024x683.jpg');
+    background-size: contain;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+
+  .card2 {
+    
+    width : 350px ;
+    height: 350px;
+    display: flex;
+    align-items: flex-end;
+    border: 1px solid var(--primary-color);
+    margin-bottom: 20px;
+    background-image: url('https://cdn3.careeraddict.com/uploads/article/61022/medium-choosing-career-mental-health-careers.png');
+    background-size: contain;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+
+  .card3 {
+    width : 350px ;
+    height: 350px;
+    display: flex;
+    align-items: flex-end;
+    border: 1px solid var(--primary-color);
+    margin-bottom: 20px;
+    background-image: url(' https://blog.optimus-education.com/sites/blog.optimus-education.com/files/resize/content/Talking%20heads-600x406.png');
+    background-size: contain;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+
+
+  .community_card{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+  }
+  
+  .inner {
+    height: 40%;
+    width: 350px;
+    justify-content: center;
+    align-items: center; 
+    background: white; 
+    padding-top: 30px;
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 16.5px;
+    color: black;  
+    position: relative;
+    
+  }
+
+  .card1:hover,.card2:hover,.card3:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+  @media  screen and (max-width:1110px) {
+    .card1,.card2,.card3,.inner{
+      width : 300px ;
+    }
+    .inner{
+      height: 45%;
+    }
+  }
+
+  @media  screen and (max-width:940px){
+    .card1,.card2,.card3,.inner{
+      width : 250px ;
+    }
+    .inner{
+      height: 45%;
+    }
+    .title{
+      font-size: 14px;
+    }
+  }
+
+  @media  screen and (max-width:800px){
+    .card1,.card2,.card3{
+      width : 200px ;
+      background-size:270px ;
+    }
+    
+    .inner{
+      width : 200px ;
+      height: 50%;
+    }
+    .title{
+      font-size: 14px;
+    }
+  }
+
+  @media  screen and (max-width:680px){
+    .community_card{
+      grid-template-columns: auto;
+    }
+    .card1,.card2,.card3{
+      width : 400px ;
+      background-size:400px ;
+    }
+    .inner{
+      width: 400px;
+      height: 40%;
+    }
+    .title{
+      font-size: 17px;
+    }
+  }
+
+  @media  screen and (max-width:460px){
+    
+    .card1,.card2,.card3,.inner{
+      width : 350px ;
+    }
+    .inner{
+      height: 40%;
+    }
+    .title{
+      font-size: 15px;
+    }
+  }
+
+  @media  screen and (max-width:380px){
+    .card1,.card2,.card3,.inner{
+      width : 300px ;
+    }
+    .inner{
+      height: 40%;
+    }
+    .title{
+      font-size: 14px;
+    }
+  }
