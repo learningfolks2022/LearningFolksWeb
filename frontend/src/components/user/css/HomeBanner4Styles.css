@@ -1,0 +1,215 @@
+.main_container_homebanner4 {
+  width: 100%;
+  padding: 60px 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  grid-gap: 50px;
+  background-color: var(--white-color);
+}
+
+.top_section_homebanner4 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.top_section_homebanner4 h2 {
+  font-weight: 800;
+  font-size: 38px;
+  line-height: 133.5%;
+  text-align: center;
+  color: var(--primary-dark);
+}
+
+.bottom_section_homebanner4 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  grid-gap: 25px;
+}
+
+.card_container_homebanner4 {
+  width: 33.33%;
+  height: 402px;
+  background: var(--white-color);
+  border: 1px solid #c9dbff;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.08);
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  grid-gap: 20px;
+  padding: 35px 25px;
+}
+
+.card_top_section_homebanner4 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  grid-gap: 10px;
+}
+
+.card_icon_container_homebanner4 {
+  padding: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--background-secondary);
+  cursor: pointer;
+}
+
+.card_icon_container_homebanner4:hover {
+  background-color: var(--background-secondary-hover);
+}
+
+.card_icon_homebanner4 {
+  font-size: 45px;
+  color: var(--primary-color);
+}
+
+.card_top_section_homebanner4 h4 {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 42px;
+  text-align: center;
+  color: var(--black-color);
+  margin-top: 10px;
+}
+
+.card_top_section_homebanner4 p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+
+  color: var(--para-color);
+}
+
+.card_bottom_section_homebanner4 a {
+  text-decoration: none;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 22px;
+  font-weight: 600;
+  transition: 0.2s all ease;
+}
+
+.card_bottom_section_homebanner4 a:hover {
+  color: var(--primary-light);
+}
+
+@media screen and (max-width: 1020px) {
+  .main_container_homebanner4 {
+    padding: 60px 40px;
+    grid-gap: 40px;
+  }
+
+  .card_icon_container_homebanner4 {
+    padding: 15px;
+  }
+
+  .card_icon_homebanner4 {
+    font-size: 40px;
+  }
+
+  .card_top_section_homebanner4 h4 {
+    font-size: 26px;
+    line-height: 26px;
+    margin-top: 0;
+  }
+
+  .card_top_section_homebanner4 p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+  }
+
+  .bottom_section_homebanner4 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    grid-gap: 25px;
+  }
+
+  .card_container_homebanner4 {
+    width: 33.33%;
+    height: 390px;
+    padding: 25px 15px;
+  }
+}
+
+
+@media screen and (max-width: 780px) {
+    .main_container_homebanner4 {
+        padding: 50px 30px;
+        grid-gap: 40px;
+      }
+
+      .top_section_homebanner4 h2 {
+        font-size: 36px;
+      }
+
+    .bottom_section_homebanner4 {
+        flex-direction: column;
+        grid-gap: 25px;
+      }
+
+      .card_container_homebanner4 {
+        width:70%;
+        height: auto;
+        padding: 30px 20px;
+      }
+}
+
+@media screen and (max-width: 450px) {
+    .main_container_homebanner4 {
+        padding: 50px 20px;
+        grid-gap: 40px;
+      }
+
+      .top_section_homebanner4 h2 {
+        font-size: 32px;
+      }
+
+    .bottom_section_homebanner4 {
+        flex-direction: column;
+        grid-gap: 25px;
+      }
+
+      .card_container_homebanner4 {
+        width:100%;
+        height: auto;
+        padding: 30px 20px;
+      }
+}
+
+@media screen and (max-width: 450px) {
+    .main_container_homebanner4 {
+        padding: 50px 20px;
+        grid-gap: 40px;
+      }
+
+      .top_section_homebanner4 h2 {
+        font-size: 32px;
+      }
+
+    .bottom_section_homebanner4 {
+        flex-direction: column;
+        grid-gap: 25px;
+      }
+
+      .card_container_homebanner4 {
+        width:100%;
+        padding: 30px 20px;
+      }
+}

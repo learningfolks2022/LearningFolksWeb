@@ -1,0 +1,125 @@
+
+.about_banner_second_container{
+    display : flex ;
+    justify-content: center ;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--background-secondary);
+    grid-gap: 50px;
+}
+
+.main_content_banner{
+    width: 50%;
+}
+
+.about_second_banner_section{
+    width: 25%;
+}
+
+.main_heading{
+    color: var(--primary-color);
+    margin-bottom: 10px;
+    font-size: 46px;
+    font-weight : 700 ;
+}
+
+.second_banner_content{
+    font-size: 20px;
+    font-weight : 500 ;
+}
+
+.about_banner_second_container img{
+    width: 300px;
+    height: 250px;
+}
+
+@media screen and (max-width :900px) {
+    .about_banner_second_container{
+        flex-direction: column;
+    }
+     .main_content_banner{
+        width: 100%;
+        margin-bottom: 30px;
+    } 
+    .second_banner_content{
+        font-size: 16px;
+        font-weight : 400 ;
+        text-align: center; 
+        padding: 0px 70px;
+    }
+    .main_heading{
+        text-align: center;
+    }
+    .about_second_banner_section{
+        width: 100%;
+       text-align : center
+    }
+    .about_banner_second_container img{
+        width: 285px;
+        height: 235px;
+    }
+}
+
+@media screen and (max-width :550px){
+    .main_heading{
+         font-size: 40px;
+        font-weight : 600 ; 
+        text-align: center;
+    } 
+    .about_banner_second_container img{
+        width: 265px;
+        height: 215px;
+    }  
+}
+
+@media screen and (max-width :485px){
+    .main_heading{
+         font-size: 34px;
+        font-weight : 600 ; 
+        text-align: center;
+    } 
+    .about_banner_second_container img{
+        width: 265px;
+        height: 215px;
+    }  
+    .second_banner_content{
+        font-size: 16px;
+        font-weight : 400 ;
+        text-align: center; 
+        padding: 0px 50px;
+    }
+}
+
+@media screen and (max-width :485px){
+    .main_heading{
+         font-size: 30px;
+        font-weight : 600 ; 
+        text-align: center;
+    } 
+    .about_banner_second_container img{
+        width: 245px;
+        height: 195px;
+    }  
+    .second_banner_content{
+        font-size: 16px;
+        font-weight : 400 ;
+        text-align: center; 
+    }
+}
+
+@media screen and (max-width :360px){
+    .main_heading{
+         font-size: 24px;
+        font-weight : 600 ; 
+        text-align: center;
+    } 
+    .about_banner_second_container img{
+        width: 185px;
+        height: 155px;
+    }  
+    .second_banner_content{
+        font-size: 15px;
+        font-weight : 300 ;
+        text-align: center; 
+    }
+}
