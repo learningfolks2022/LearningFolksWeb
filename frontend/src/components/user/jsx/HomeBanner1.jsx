@@ -2,7 +2,7 @@ import React from 'react';
 import "../css/HomeBanner1Styles.css";
 // import Globe from "../../../img/banner/globe.png";
 import maingif from "../../../img/banner/mainl.gif"
-import plans from "../../../img/banner/plans.jpeg";
+import plans from "../../../img/banner/plans1.jpg";
 
 const HomeBanner1 = () => {
   return (
@@ -21,11 +21,11 @@ const HomeBanner1 = () => {
         </div>
         <div className='ctasection'>
           <div className='imgholder'>
-          <img className="planing" src={plans} alt='plans' />
+          <img className="planing" src={plans} alt='plans' />        
           </div>
           <div className='buttonholder'>
-            <h2>B.Tech Educational Support Plans</h2>
-            <a href="https://courses.learningfolks.in/s/store"><button className='gotocourses'>Go To Courses</button></a>
+            <h2>IPU Exam Support</h2>
+            <a href="https://courses.learningfolks.in/s/store"><button className='gotocourses'>Visit</button></a>
           </div>
         </div>
 
