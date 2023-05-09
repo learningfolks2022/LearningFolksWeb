@@ -37,7 +37,7 @@ const Header = () => {
             <li><Link to="/">Home</Link></li>
             <li><Link to="/about">About Us</Link></li>
             <li><Link to="/comingsoon">Collaborate</Link></li>
-            <li><a href="https://courses.learningfolks.in/s/store">Courses</a></li>
+            <li><a href="https://courses.learningfolks.in/s/store" style={{fontSize: '20px' , color:'blue'}}>Courses</a></li>
 
         </ul>
       </div>

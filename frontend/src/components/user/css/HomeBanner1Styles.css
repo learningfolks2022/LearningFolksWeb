@@ -53,6 +53,7 @@ color: var(--light-gray);
 .imgholder > img{
     width: 500px;
     height: 300px;
+    border-radius: 5px;
 }
 
 .gotocourses{
@@ -156,8 +157,9 @@ color: var(--light-gray);
 
 @media screen and (max-width: 425px) {
     .imgholder > img{
-        width: 350px;
+        width: 330px;
         height: 250px;
+        border-radius: 12px;
     }
 }
 
@@ -185,7 +187,16 @@ color: var(--light-gray);
 
 @media screen and (max-width: 375px) {
     .imgholder > img{
-        width: 300px;
-        height: 230px;
+        width: 299px;
+        height: 250px;
     }
 }
+
+@media screen and (max-width: 300px) {
+    .imgholder > img{
+        width: 218px;
+        height: 200px;
+    }
+}
+
+
