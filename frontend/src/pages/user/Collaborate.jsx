@@ -12,6 +12,7 @@ import {
   FaYoutubeSquare,
 } from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai";
+import Footer from "../../components/user/jsx/Footer";
 
 const ComingSoon = () => {
   // const navigate = useNavigate();
@@ -193,7 +194,7 @@ const ComingSoon = () => {
           </div>
         </div>
 
-        <div className="icons">
+        {/* <div className="icons">
           <h5>Connect Us On!</h5>
 
           <div className="icons_container_footer">
@@ -228,8 +229,11 @@ const ComingSoon = () => {
                </p>
 
             </div>
-        </div>
+        </div> */}
+
+        
       </div>
+      <Footer></Footer>
     </div>
   );
 };
