@@ -65,7 +65,7 @@
   width: 100%;
   display: flex;
   grid-gap: 20px;
-  padding: 15px 25px;
+  padding: 25px; /*padding changed*/
 }
 
 .card_bottom_left_section_homebanner5 {
@@ -106,7 +106,7 @@
 
 .card_bottom_right_section_homebanner5 p {
   font-weight: 400;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 24px;
   color: var(--para-color);
 }

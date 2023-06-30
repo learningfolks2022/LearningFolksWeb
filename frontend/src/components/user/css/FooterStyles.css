@@ -16,11 +16,12 @@
 
 .top_section_footer img {
     width: 83px;
+    margin: 0 40px;
 }
 
 .top_section_footer h1 {
     font-weight: 600;
-font-size: 40px;
+font-size: 35px;
 line-height: 133.5%;
 color: var(--white-color);
 }
@@ -34,7 +35,7 @@ color: var(--white-color);
 
 .bottom_left_section_footer p {
     font-weight: 400;
-font-size: 14px;
+font-size: 16px;
 line-height: 74.19%;
 text-align: right;
 }

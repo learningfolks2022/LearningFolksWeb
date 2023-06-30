@@ -82,14 +82,14 @@
   color: var(--black-color);
   margin-top: 10px;
 }
-
+/* font color, size changed */
 .card_top_section_homebanner4 p {
   font-weight: 500;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 22px;
   text-align: center;
 
-  color: var(--para-color);
+  color: #3f3f3f;
 }
 
 .card_bottom_section_homebanner4 a {
