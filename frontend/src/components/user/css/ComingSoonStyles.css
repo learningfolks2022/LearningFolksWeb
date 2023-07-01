@@ -8,13 +8,14 @@
 }
 
 .main_container_soon h4{
-  font-size: 4rem;
+  font-size: 40px;
   padding: 10px;
   font-weight: 600;
   color: var(--primary-color);
   font-family: "Raleway", sans-serif;
  text-align: center;
  font-family: DM Sans,sans-serif;
+ margin-bottom: 30px;
 }
 
 .main_box_soon {
@@ -28,24 +29,26 @@
 }
 
 .headings h5 {
-  font-size: 40px;
+  font-size: 36px;
   font-weight: 600;
   color: var(--primary-color);
   font-family: "Raleway", sans-serif;
   font-family: DM Sans,sans-serif;
   text-align: center;
-  margin-top: 100px;
+  margin: 10px 0;
 }
 
 .left_section_box_soon p {
   font-size: 20px;
   font-weight: 400;
   color: var(--para-color);
+  margin-bottom: 50px;
 }
 
 .right_section_box_soon img {
-  width: 640px;
+  width: 500px;
   object-fit: cover;
+  margin-bottom: 20px;
 }
 
 /* .icons_container_footer {
@@ -127,6 +130,7 @@ margin-top: 50px;
 @media screen and (max-width: 1200px) {
   .headings h5{
     margin-bottom: 100px;
+    font-size: 32px;
   }
   .main_box_soon {
     flex-direction: column-reverse;
@@ -162,6 +166,7 @@ margin-top: 50px;
 @media screen and (max-width: 720px) {
   .headings h5{
     margin-bottom: 100px;
+    font-size: 32px;
   }
   .main_box_soon {
     padding: 0 20px;
@@ -192,6 +197,7 @@ margin-top: 50px;
   }
   .headings h5{
     margin-bottom: 100px;
+    font-size: 32px;
   }
 
   .left_section_box_soon {
@@ -216,7 +222,8 @@ margin-top: 50px;
     flex-direction: column;
   }
   .headings h5{
-    margin-bottom: 100px;
+    margin-bottom: 70px;
+    font-size: 32px;
   }
   .main_box_soon{
     display: flex;

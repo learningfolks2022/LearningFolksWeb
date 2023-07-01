@@ -78,9 +78,7 @@ const ComingSoon = () => {
               college societies, academies, conservatories, seminaries, 
               colleges, or universities to create a synergistic relationship
               that benefits students and enhances their educational experience.
-              </p>
-              <br />
-              <p>
+              <br /><br/>
               At Learning Folks, we believe in the power of collaboration and
               the collective wisdom of joining forces with like-minded institutions.
               By working together, we can unlock new opportunities, broaden our reach,
@@ -102,7 +100,6 @@ const ComingSoon = () => {
                   tapping into our network, you can expand your reach beyond your
                    campus and connect with a broader audience.
                   </p>
-                  <br />
                 </li>
                 <li>
                   <p>
@@ -112,7 +109,6 @@ const ComingSoon = () => {
                     can provide you with valuable insights and perspectives that can further
                      enrich your educational offerings.
                   </p>
-                  <br />
                 </li>
                 <li>
                   <p>
