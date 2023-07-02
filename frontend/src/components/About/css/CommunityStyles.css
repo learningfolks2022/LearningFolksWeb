@@ -4,7 +4,12 @@
     align-items: center;
     padding: 60px 40px;
 }
+p{
+  color: #3f3f3f;
+  font-weight: 400;
+  padding: 0 30px;
 
+}
 .card1 {
     
     width : 350px ;
@@ -12,6 +17,7 @@
     display: flex;
     align-items: flex-end; 
     border: 1px solid var(--primary-color);
+    border-radius: 5px;
     margin-bottom: 20px;
     background-image: url('https://idronline.org/wp-content/uploads/2021/01/Illustration-of-a-group-therapy-session_Unsplash_resized-1024x683.jpg');
     background-size: contain;
@@ -25,6 +31,7 @@
     display: flex;
     align-items: flex-end;
     border: 1px solid var(--primary-color);
+    border-radius: 5px;
     margin-bottom: 20px;
     background-image: url('https://cdn3.careeraddict.com/uploads/article/61022/medium-choosing-career-mental-health-careers.png');
     background-size: contain;
@@ -37,6 +44,7 @@
     display: flex;
     align-items: flex-end;
     border: 1px solid var(--primary-color);
+    border-radius: 5px;
     margin-bottom: 20px;
     background-image: url(' https://blog.optimus-education.com/sites/blog.optimus-education.com/files/resize/content/Talking%20heads-600x406.png');
     background-size: contain;

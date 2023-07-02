@@ -22,7 +22,7 @@
 .icon{
     padding: 40px;
     color: white; 
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
     transition: 0.2s ease-in-out;
 }
@@ -33,7 +33,8 @@
 }
 
 .icon_title{
-    font-size: 12px;   
+    font-size: 20px;   
+    font-weight: 500;
 }
 
 .footer_link{
@@ -54,4 +55,7 @@
     color: white; 
     font-size: 35px;
  }
+ .icon_title{
+    font-size: 14px;   
+}
 }

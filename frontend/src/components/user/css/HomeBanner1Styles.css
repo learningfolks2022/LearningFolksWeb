@@ -5,7 +5,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 60px 60px;
+    padding: 30px 30px;
     background: rgb(227,234,248);
 background: radial-gradient(circle, rgba(227,234,248,1) 0%, rgba(254,254,254,1) 100%);
 }
@@ -21,10 +21,10 @@ background: radial-gradient(circle, rgba(227,234,248,1) 0%, rgba(254,254,254,1) 
 .top_section_homebanner1 h2 {
     width: 70%;
     font-weight: 600;
-font-size: 42px;
+    font-size: 38px; /*changed font size */
 line-height: 56px;
 text-align: center;
-color: var(--primary-color);
+color: var(--primary-color);  /*changed font-color*/
 }
 
 .top_section_homebanner1 span {
@@ -37,7 +37,7 @@ color: var(--primary-color);
 font-size: 18px;
 line-height: 24px;
 text-align: center;
-color: var(--light-gray);
+color: #3f3f3f;
 }
 
 .bottom_section_homebanner1 img {
@@ -83,8 +83,8 @@ color: var(--light-gray);
     justify-content: center;
     align-items: center;
     width: 100%;
-    padding: 20px 10px;
-    margin: 60px 40px;
+    padding: 0px 10px; /*changed padding and margin*/
+    margin: 30px 40px;
     border: 1px solid;
     border-color: var(--primary-color);
     border-radius: 10%;

@@ -12,9 +12,10 @@
 .form_doubt_section  input ,textarea{
     outline: none;
     margin-bottom:10px;
-    width: 450px;
+    width: 550px;
     padding: 15px;
     border-radius:10px ;
+    font-size: 18px;
     border: 1px solid var(--input-hover) ;
 }
 
@@ -31,6 +32,8 @@
     border-radius: 10px;
     transition: 0.2s ease-in-out;
     width: 180px;
+    font-size: 18px;
+    margin-top: 18px;
 }
 
 .send_button_doubt_section:hover{

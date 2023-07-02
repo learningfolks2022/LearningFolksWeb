@@ -3,7 +3,8 @@
     display : flex ;
     justify-content: center ;
     align-items: center;
-    height: 100vh;
+    /* height: 100vh; */
+    padding: 100px 0;
     background-color: var(--background-secondary);
     grid-gap: 50px;
 }
@@ -19,13 +20,14 @@
 .main_heading{
     color: var(--primary-color);
     margin-bottom: 10px;
-    font-size: 46px;
-    font-weight : 700 ;
+    font-size: 38px;
+    font-weight : 600 ;
 }
 
 .second_banner_content{
     font-size: 20px;
-    font-weight : 500 ;
+    font-weight : 400 ;
+    color: #3f3f3f;
 }
 
 .about_banner_second_container img{
