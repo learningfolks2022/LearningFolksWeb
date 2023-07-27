@@ -73,6 +73,15 @@
   margin: 0 100px;
 }
 
+.how_collab p{
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--para-color);
+  margin-bottom: 15px;
+  margin-right: 80px;
+  margin-left: 70px;
+}
+
 /* .icons_container_footer {
   width: 100%;
   display: flex;

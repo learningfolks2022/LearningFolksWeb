@@ -4,6 +4,8 @@ import "../../components/user/css/ComingSoonStyles.css";
 import LogoTag from "../../img/LogoTag.jpeg";
 import CollabEst from "../../img/CollabEst.jpg";
 import head_image from "../../img/head_image.png";
+import collab from "../../img/collab.png";
+import how_collab from "../../img/how_collab.png";
 import Header from "../../components/user/jsx/Header";
 // import { useNavigate } from "react-router-dom";
 import { BsLinkedin } from "react-icons/bs";
@@ -58,7 +60,7 @@ const ComingSoon = () => {
         </div>
         <div className="headings">
           <div className="main_box_soon">
-          <div className="right_section_box">
+            <div className="right_section_box">
               <img src={head_image} alt="head_image" />
             </div>
             <div className="left_section_box">
@@ -69,7 +71,7 @@ const ComingSoon = () => {
                 domains in our community. Better reach helps us transform and
                 realise our vision with more momentum.
               </p>
-            
+
               <h5>Why We are Unique?</h5>
               <p>
                 With exposure, networking and realisation support, we help each
@@ -86,9 +88,9 @@ const ComingSoon = () => {
         </div>
 
         <div className="headings">
-          <h5>Open for Collaboration</h5>
           <div className="main_box_soon">
             <div className="left_section_box_soon">
+          <h5>Open for Collaboration</h5>
               <p>
                 We are excited to partner with educational institutions, college
                 societies, academies, conservatories, seminaries, colleges, or
@@ -106,97 +108,88 @@ const ComingSoon = () => {
           </div>
         </div>
         <div className="headings">
-          <h5>Why Collaborate with Learning Folks?</h5>
           <div className="main_box_soon">
             <div className="left_section_box_soon">
-              <ul>
-                <li>
-                  <p>
-                    <b>Expand Your Reach:</b> You gain access to our extensive
-                    student community when collaborating with Learning Folks.
-                    This includes students from various courses, domains, and
-                    institutions. By tapping into our network, you can expand
-                    your reach beyond your campus and connect with a broader
-                    audience.
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <b>Mutual Benefits:</b> Collaboration with Learning Folks is
-                    a win-win situation. By partnering with us, you can enhance
-                    your brand visibility and reputation. Additionally, your
-                    association with our student community can provide you with
-                    valuable insights and perspectives that can further enrich
-                    your educational offerings.
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <b>Shared Resources:</b> At Learning Folks, we believe in
-                    the power of shared resources. Through collaboration, we can
-                    pool our expertise and knowledge and help to create a more
-                    robust and comprehensive learning environment. We can offer
-                    students a wider range of courses, workshops, mentorship
-                    programs, and other educational opportunities.
-                  </p>
-                </li>
-              </ul>
+              <h5>Why Collaborate with Learning Folks?</h5>
+
+              <p>
+                <b>Expand Your Reach:</b> You gain access to our extensive
+                student community when collaborating with Learning Folks. This
+                includes students from various courses, domains, and
+                institutions. By tapping into our network, you can expand your
+                reach beyond your campus and connect with a broader audience.
+              </p>
+
+              <p>
+                <b>Mutual Benefits:</b> Collaboration with Learning Folks is a
+                win-win situation. By partnering with us, you can enhance your
+                brand visibility and reputation. Additionally, your association
+                with our student community can provide you with valuable
+                insights and perspectives that can further enrich your
+                educational offerings.
+              </p>
+
+              <p>
+                <b>Shared Resources:</b> At Learning Folks, we believe in the
+                power of shared resources. Through collaboration, we can pool
+                our expertise and knowledge and help to create a more robust and
+                comprehensive learning environment. We can offer students a
+                wider range of courses, workshops, mentorship programs, and
+                other educational opportunities.
+              </p>
+            </div>
+            <div className="right_section_box_soon">
+              <img
+                src={collab}
+                alt="Establishers"
+                style={{ width: "210px", height: "400px" }}
+              />
             </div>
           </div>
         </div>
         <div className="headings">
-          <h5>How to Collaborate?</h5>
           <div className="main_box_soon">
-            <div className="left_section_box_soon">
+          <div className="right_section_box">
+              <img src={how_collab} alt="how_collab" style={{height:'521px', width:'750px'}} />
+            </div>
+            <div className="how_collab">
+              <h5>How to Collaborate?</h5>
               <p>
                 We are open to various forms of collaboration, including but not
                 limited to:
               </p>
               <br />
-              <ul>
-                <li>
-                  <p>
-                    <b>Joint Events:</b> Let's organise workshops, seminars,
-                    webinars, and conferences to create impactful student
-                    learning experiences.
-                  </p>
-                  <br />
-                </li>
-                <li>
-                  <p>
-                    <b>Guest Lectures and Faculty Exchanges:</b> We can
-                    facilitate guest lectures and faculty exchanges between our
-                    institutions, allowing students to benefit from diverse
-                    perspectives and expertise.
-                  </p>
-                  <br />
-                </li>
-                <li>
-                  <p>
-                    <b>Content Sharing:</b> Share your educational resources,
-                    study materials, and research papers with our community, and
-                    we'll reciprocate with our own valuable content.
-                  </p>
-                  <br />
-                </li>
-                <li>
-                  <p>
-                    <b>Student Exchange Programs:</b> Explore the possibility of
-                    student exchange programs, enabling students to broaden
-                    their horizons and experience education from different
-                    institutions.
-                  </p>
-                  <br />
-                </li>
-                <li>
-                  <p>
-                    <b>Research Collaborations:</b> Join us on research
-                    projects, encouraging cross-institutional collaborations and
-                    fostering innovation.
-                  </p>
-                  <br />
-                </li>
-              </ul>
+              <p>
+                <b>Joint Events:</b> Let's organise workshops, seminars,
+                webinars, and conferences to create impactful student learning
+                experiences.
+              </p>
+              <br />
+              <p>
+                <b>Guest Lectures and Faculty Exchanges:</b> We can facilitate
+                guest lectures and faculty exchanges between our institutions,
+                allowing students to benefit from diverse perspectives and
+                expertise.
+              </p>
+              <br />
+              <p>
+                <b>Content Sharing:</b> Share your educational resources, study
+                materials, and research papers with our community, and we'll
+                reciprocate with our own valuable content.
+              </p>
+              <br />
+              <p>
+                <b>Student Exchange Programs:</b> Explore the possibility of
+                student exchange programs, enabling students to broaden their
+                horizons and experience education from different institutions.
+              </p>
+              <br />
+              <p>
+                <b>Research Collaborations:</b> Join us on research projects,
+                encouraging cross-institutional collaborations and fostering
+                innovation.
+              </p>
+              <br />
             </div>
           </div>
         </div>
