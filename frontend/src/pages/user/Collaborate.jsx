@@ -52,10 +52,10 @@ const ComingSoon = () => {
         <br />
         <div className="headings">
           <div className="main_box_soon">
-            <div className="right_section_box">
+            <div className="right_section_box_soon">
               <img src={CollabEst} alt="establishers" />
             </div>
-            <div className="left_section_box">
+            <div className="left_section_box_soon">
               <h5>Our Expectations</h5>
               <p>
                 Our association with you helps us reach more students where we
@@ -82,11 +82,9 @@ const ComingSoon = () => {
         <div className="headings">
           <div
             className="main_box_soon"
+            id="bg"
             style={{
               backgroundImage: "url(" + open_collab + ")",
-              height: "600px",
-              width: "100%",
-              backgroundRepeat: "no-repeat", paddingBottom: "50px"
             }}
           >
             <div className="left_section_box_soon" id="open_for_collab">
@@ -141,18 +139,14 @@ const ComingSoon = () => {
               </p>
             </div>
             <div className="right_section_box_soon">
-              <img src={collab} alt="Establishers" />
+              <img src={collab} alt="collab" />
             </div>
           </div>
         </div>
         <div className="headings">
           <div className="main_box_soon">
             <div className="right_section_box">
-              <img
-                src={how_collab}
-                alt="how_collab"
-                style={{ height: "621px", width: "560px" }}
-              />
+              <img id="how_collab_img" src={how_collab} alt="how_collab" />
             </div>
             <div className="how_collab">
               <h5>How to Collaborate?</h5>
