@@ -3,7 +3,7 @@
 .main_container_soon {
   width: 100%;
   min-height: 100wh;
-  padding: 1em;
+  /* padding: 1em; */
   text-align: justify;
 }
 
@@ -71,6 +71,25 @@
   object-fit: cover;
   /* margin-bottom: 20px; */
   margin: 0 100px;
+}
+
+#open_for_collab{
+  width: 500px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  padding: 20px 0;
+  margin-left: 1100px;
+}
+
+#open_for_collab p{
+  padding: 20px 30px;
+  margin: 0;
+}
+
+#open_for_collab h5{
+  margin: 0;
+  padding-left: 25px;
 }
 
 .how_collab p{

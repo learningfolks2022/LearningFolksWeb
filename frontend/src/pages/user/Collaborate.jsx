@@ -3,9 +3,9 @@ import "../../components/user/css/ComingSoonStyles.css";
 // import ComingSoonImage from "../../img/coming-soon.jpg";
 import LogoTag from "../../img/LogoTag.jpeg";
 import CollabEst from "../../img/CollabEst.jpg";
-import head_image from "../../img/head_image.png";
-import collab from "../../img/collab.png";
-import how_collab from "../../img/how_collab.png";
+import collab from "../../img/collab.avif";
+import open_collab from "../../img/open_collab.png";
+import how_collab from "../../img/how_collab.avif";
 import Header from "../../components/user/jsx/Header";
 // import { useNavigate } from "react-router-dom";
 import { BsLinkedin } from "react-icons/bs";
@@ -35,16 +35,6 @@ const ComingSoon = () => {
                 ourselves. We share knowledge from specific domains where we
                 have trained ourselves.
               </p>
-            </div>
-
-            <div className="right_section_box_soon">
-              <img src={LogoTag} alt="Logo" />
-            </div>
-          </div>
-        </div>
-        <div className="headings">
-          <div className="main_box_soon">
-            <div className="left_section_box_soon">
               <h5>Establishers</h5>
               <p>
                 Started by Bachelor of Technology students from various branches
@@ -53,15 +43,17 @@ const ComingSoon = () => {
                 studentsfrom various courses and domains.
               </p>
             </div>
+
             <div className="right_section_box_soon">
-              <img src={CollabEst} alt="Establishers" />
+              <img src={LogoTag} alt="Logo" />
             </div>
           </div>
         </div>
+        <br />
         <div className="headings">
           <div className="main_box_soon">
             <div className="right_section_box">
-              <img src={head_image} alt="head_image" />
+              <img src={CollabEst} alt="establishers" />
             </div>
             <div className="left_section_box">
               <h5>Our Expectations</h5>
@@ -86,11 +78,19 @@ const ComingSoon = () => {
             </div>
           </div>
         </div>
-
+        <br />
         <div className="headings">
-          <div className="main_box_soon">
-            <div className="left_section_box_soon">
-          <h5>Open for Collaboration</h5>
+          <div
+            className="main_box_soon"
+            style={{
+              backgroundImage: "url(" + open_collab + ")",
+              height: "600px",
+              width: "100%",
+              backgroundRepeat: "no-repeat", paddingBottom: "50px"
+            }}
+          >
+            <div className="left_section_box_soon" id="open_for_collab">
+              <h5>Open for Collaboration</h5>
               <p>
                 We are excited to partner with educational institutions, college
                 societies, academies, conservatories, seminaries, colleges, or
@@ -107,6 +107,8 @@ const ComingSoon = () => {
             </div>
           </div>
         </div>
+        <br />
+
         <div className="headings">
           <div className="main_box_soon">
             <div className="left_section_box_soon">
@@ -139,18 +141,18 @@ const ComingSoon = () => {
               </p>
             </div>
             <div className="right_section_box_soon">
-              <img
-                src={collab}
-                alt="Establishers"
-                style={{ width: "210px", height: "400px" }}
-              />
+              <img src={collab} alt="Establishers" />
             </div>
           </div>
         </div>
         <div className="headings">
           <div className="main_box_soon">
-          <div className="right_section_box">
-              <img src={how_collab} alt="how_collab" style={{height:'521px', width:'750px'}} />
+            <div className="right_section_box">
+              <img
+                src={how_collab}
+                alt="how_collab"
+                style={{ height: "621px", width: "560px" }}
+              />
             </div>
             <div className="how_collab">
               <h5>How to Collaborate?</h5>
