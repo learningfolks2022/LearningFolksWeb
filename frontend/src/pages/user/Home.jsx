@@ -8,6 +8,7 @@ import HomeBanner3 from "../../components/user/jsx/HomeBanner3";
 // import HomeBanner4 from "../../components/user/jsx/HomeBanner4";
 import HomeBanner5 from "../../components/user/jsx/HomeBanner5";
 import HomeBanner6 from "../../components/user/jsx/HomeBanner6";
+import HomeBanner7 from "../../components/user/jsx/HomeBanner7";
 
 const Home = () => {
   return (
@@ -21,7 +22,8 @@ const Home = () => {
       <Community />
       {/* <HomeBanner4 /> */}
       <HomeBanner5 />
-      <HomeBanner6 />
+      {/* <HomeBanner6 /> */}
+      <HomeBanner7 />
       <Footer />
     </div>
   );
