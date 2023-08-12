@@ -1,7 +1,7 @@
 import React from 'react';
 import "../css/FooterStyles.css";
 import Logo from "../../../img/logo.png";
-import { BsLinkedin } from 'react-icons/bs';
+import { BsLinkedin, BsDiscord } from 'react-icons/bs';
 import { FaFacebookSquare, FaWhatsappSquare, FaYoutubeSquare } from 'react-icons/fa';
 import { AiFillInstagram } from 'react-icons/ai';
 
@@ -31,6 +31,8 @@ const Footer = () => {
                     <a href='https://www.instagram.com/learningfolks/'><AiFillInstagram className='icon4_footer' /></a>
 
                     <a href='https://www.facebook.com/learningfolks2022'><FaFacebookSquare className='icon5_footer' /></a>
+
+                    <a href='https://www.facebook.com/learningfolks2022'><BsDiscord className='icon6_footer' /></a>
                 </div>
             </div>
         </div>

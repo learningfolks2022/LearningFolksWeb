@@ -6,12 +6,14 @@ import Home from "./pages/user/Home";
 // import Login from "./pages/user/Login";
 // import OTPVerify from "./pages/user/OTPVerify";
 // import SignUp from "./pages/user/SignUp";
-import About from "./pages/About/About" ;
+import About from "./pages/About/About";
 import Error404 from "./pages/user/Error404";
 import Collaborate from "./pages/user/Collaborate";
+import CareersPage from "./pages/user/CareersPage";
+
 const App = () => {
 
-  return (  
+  return (
     <BrowserRouter>
       <Routes>
         <Route exact path="/" element={<Home />} />
@@ -22,7 +24,9 @@ const App = () => {
         {/* <Route exact path="/forgotpassword" element={<ForgotPassword />} /> */}
         <Route exact path="/about" element={<About />} />
         <Route exact path="*" element={<Error404 />} />
-        <Route exact path="/collaborate" element={<Collaborate/>} />                                                              
+        <Route exact path="/collaborate" element={<Collaborate />} />
+        <Route exact path="/careers" element={<CareersPage />} />
+
       </Routes>
     </BrowserRouter>
   );

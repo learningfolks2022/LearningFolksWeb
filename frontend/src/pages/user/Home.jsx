@@ -7,8 +7,9 @@ import Community from '../../components/About/jsx/Community';
 import HomeBanner3 from "../../components/user/jsx/HomeBanner3";
 // import HomeBanner4 from "../../components/user/jsx/HomeBanner4";
 import HomeBanner5 from "../../components/user/jsx/HomeBanner5";
-import HomeBanner6 from "../../components/user/jsx/HomeBanner6";
+// import HomeBanner6 from "../../components/user/jsx/HomeBanner6";
 import HomeBanner7 from "../../components/user/jsx/HomeBanner7";
+import HomeBanner8 from "../../components/user/jsx/HomeBanner8";
 
 const Home = () => {
   return (
@@ -23,6 +24,7 @@ const Home = () => {
       {/* <HomeBanner4 /> */}
       <HomeBanner5 />
       {/* <HomeBanner6 /> */}
+      <HomeBanner8 />
       <HomeBanner7 />
       <Footer />
     </div>
