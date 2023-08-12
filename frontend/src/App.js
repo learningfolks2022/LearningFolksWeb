@@ -9,7 +9,7 @@ import Home from "./pages/user/Home";
 import About from "./pages/About/About";
 import Error404 from "./pages/user/Error404";
 import Collaborate from "./pages/user/Collaborate";
-import CareersPage from "./pages/user/CareersPage";
+import CareersPage from "./components/user/jsx/CareersPage";
 
 const App = () => {
 
