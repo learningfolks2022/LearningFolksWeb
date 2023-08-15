@@ -19,7 +19,7 @@ const HomeBanner1 = () => {
         <div>
         {/* HIRING BANNER WAS HERE */}
         </div>
-        <div className='ctasection'>
+        {/* <div className='ctasection'>
           <div className='imgholder'>
           <img className="planing" src={plans} alt='plans' />        
           </div>
@@ -27,7 +27,7 @@ const HomeBanner1 = () => {
             <h2>IPU Exam Support</h2>
             <a href="https://courses.learningfolks.in/s/store"><button className='gotocourses'>Visit</button></a>
           </div>
-        </div>
+        </div> */}
 
       </div>
     </div>

@@ -31,6 +31,7 @@ const Doubt = () => {
         <div>
             <button type="submit" className='send_button_doubt_section'>Send</button>
         </div>
+        <br/><br/>
         </div>
     </form>
     </>

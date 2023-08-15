@@ -1,5 +1,22 @@
-import React from 'react'
+import React, { useState } from "react";
 import "../css/AboutBanner2Styles.css"
+
+const ReadMore = ({ children }) => {
+  const text = children;
+  const [isReadMore, setIsReadMore] = useState(true);
+  const toggleReadMore = () => {
+    setIsReadMore(!isReadMore);
+  };
+  return (
+    <p className="text">
+      {isReadMore ? text.slice(0, 0) : text}
+      <span onClick={toggleReadMore} className="read-or-hide">
+        {isReadMore ? "...read more" : " show less"}
+      </span>
+    </p>
+  );
+};
+
 const AboutBanner2 = () => {
   return (
     <div className='about_banner_second_container'>    
@@ -15,6 +32,7 @@ const AboutBanner2 = () => {
         </p>
         <br />
         <p className="second_banner_content">
+          <ReadMore>
         Learning Folks stands out from other educational platforms
         due to our commitment to exposure, networking, and personalised
         support. We believe in guiding students towards the right path
@@ -25,7 +43,8 @@ const AboutBanner2 = () => {
         solution that addresses all aspects of a student's journey.
         From knowledge acquisition to practical application, we strive
         to empower learners and bridge the gaps in their education.
-
+        <br/><br/>
+        </ReadMore>
         </p>
     </div>
     <div className="about_second_banner_section">

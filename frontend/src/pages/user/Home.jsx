@@ -3,10 +3,12 @@ import Footer from "../../components/user/jsx/Footer";
 import Header from "../../components/user/jsx/Header";
 import HomeBanner1 from "../../components/user/jsx/HomeBanner1";
 // import HomeBanner2 from '../../components/user/jsx/HomeBanner2'
+import Community from '../../components/About/jsx/Community';
 import HomeBanner3 from "../../components/user/jsx/HomeBanner3";
-import HomeBanner4 from "../../components/user/jsx/HomeBanner4";
+// import HomeBanner4 from "../../components/user/jsx/HomeBanner4";
 import HomeBanner5 from "../../components/user/jsx/HomeBanner5";
-import HomeBanner6 from "../../components/user/jsx/HomeBanner6";
+// import HomeBanner6 from "../../components/user/jsx/HomeBanner6";
+// import HomeBanner7 from "../../components/user/jsx/HomeBanner7";
 
 const Home = () => {
   return (
@@ -17,9 +19,11 @@ const Home = () => {
       </div>
       {/* <HomeBanner2 /> */}
       <HomeBanner3 />
-      <HomeBanner4 />
+      <Community />
+      {/* <HomeBanner4 /> */}
       <HomeBanner5 />
-      <HomeBanner6 />
+      {/* <HomeBanner6 /> */}
+      {/* <HomeBanner7 /> */}
       <Footer />
     </div>
   );

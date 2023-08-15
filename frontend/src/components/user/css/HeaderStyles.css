@@ -105,6 +105,11 @@
     transform-origin: left;
     transform: scaleX(1);
   }
+
+  .mid_section_header a:hover {
+    text-decoration: none;
+    color: var(--primary-dark);
+  }
   
   .button_container_header {
     display: flex;
