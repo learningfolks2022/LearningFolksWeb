@@ -21,7 +21,7 @@ const AboutBanner2 = () => {
   return (
     <div className='about_banner_second_container'>    
         <div  className='main_content_banner'>
-        <h1 className='main_heading'>Learn From The Best !</h1>
+        <h1 className='main_heading'>The Learning Folks' Story</h1>
         <p className="second_banner_content">
         At Learning Folks, we are more than just a community -
         we are a dedicated student support system. Our platform brings

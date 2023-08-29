@@ -1,0 +1,232 @@
+.main_container_footer {
+    width: 100%;
+  padding: 60px 60px 20px 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  grid-gap: 30px;
+  background-color: var(--primary-color);
+}
+
+.top_section_footer {
+    display: flex;
+    align-items: flex-end;
+    grid-gap: 10px;
+}
+
+.top_section_footer img {
+    width: 83px;
+    margin: 0 40px;
+}
+
+.top_section_footer h1 {
+    font-weight: 600;
+font-size: 35px;
+line-height: 133.5%;
+color: var(--white-color);
+}
+
+.bottom_section_footer {
+    width: 100%;
+    display: flex;
+    align-items: flex-end; 
+    justify-content: space-between;
+}
+
+.bottom_left_section_footer p {
+    font-weight: 400;
+font-size: 18px;
+line-height: 74.19%;
+text-align: right;
+color: #202020;
+}
+
+.bottom_right_section_footer {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 10px;
+}
+
+.bottom_right_section_footer p {
+    font-weight: 500;
+font-size: 20px;
+line-height: 74.19%;
+color: var(--white-color);
+}
+
+.icons_container_footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    grid-gap: 5px;
+    justify-content: space-between;
+}
+
+.icon1_footer {
+    font-size: 40px;
+    color: var(--white-color);
+    transition: 0.2s all ease;
+  }
+  
+  .icon1_footer:hover,
+  .icon2_footer:hover,
+  .icon3_footer:hover,
+  .icon4_footer:hover,
+  .icon5_footer:hover,
+  .icon6_footer:hover {
+    color: var(--background-secondary);
+  }
+  
+  .icon2_footer {
+    font-size: 46px;
+    color: var(--white-color);
+  }
+  
+  .icon3_footer {
+    font-size: 46px;
+    color: var(--white-color);
+    margin-left: -3px;
+  }
+  
+  .icon4_footer {
+    font-size: 52px;
+    color: var(--white-color);
+    margin-left: -7px;
+  }
+
+  .icon5_footer {
+    font-size: 44px;
+    color: var(--white-color);
+    margin-left: -6px;
+  }
+  .icon6_footer {
+    font-size: 42px;
+    color: var(--white-color);
+    margin-left: -3px;
+  }
+  
+
+  @media screen and (max-width: 800px) {
+    .main_container_footer {
+        width: 100%;
+      padding: 40px 35px 20px 35px;
+      grid-gap: 25px;
+    }
+
+    .top_section_footer img {
+        width: 73px;
+    }
+
+    .top_section_footer h1 {
+        font-size: 36px;
+    }
+
+    .icon1_footer {
+        font-size: 32px;
+      }
+      
+      .icon2_footer {
+        font-size: 36px;
+      }
+      
+      .icon3_footer {
+        font-size: 36px;
+      }
+      
+      .icon4_footer {
+        font-size: 42px;
+      }
+
+      .icon5_footer {
+        font-size: 38px;
+      }
+
+      .icon6_footer {
+        font-size: 37px;
+      }
+      
+      .bottom_right_section_footer p {
+        font-size: 18px;
+      }
+  }
+
+  
+  @media screen and (max-width: 580px) {
+    .main_container_footer {
+      padding: 40px 30px 20px 30px;
+      grid-gap: 30px;
+    }
+
+    .top_section_footer img {
+        width: 65px;
+    }
+
+    .top_section_footer h1 {
+        font-size: 32px;
+    }
+
+    .bottom_section_footer {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        justify-content: center;
+        grid-gap: 10px;
+    }
+
+    .bottom_right_section_footer {
+        grid-gap: 7px;
+    }
+  }
+
+  @media screen and (max-width: 450px) {
+    .main_container_footer {
+      /* padding: 40px 20px 15px 20px; */
+      grid-gap: 30px;
+    }
+
+    .top_section_footer img {
+        width: 55px;
+        margin: 0;
+    }
+
+    .top_section_footer h1 {
+        font-size: 26px;
+        margin-left: 10px;
+    }
+
+    .bottom_left_section_footer{
+      margin-left: 0px;
+    }
+
+    .bottom_right_section_footer p {
+        font-size: 16px;
+        margin: 10px 0 10px 50px;
+        padding: 0 22px;
+    }
+
+    .icons_container_footer{
+      margin: 0 15px;
+    }
+
+    .icon1_footer {
+        font-size: 30px;
+      }
+      
+      .icon2_footer {
+        font-size: 36px;
+      }
+      
+      .icon3_footer {
+        font-size: 36px;
+      }
+      
+      .icon4_footer {
+        font-size: 42px;
+      }
+
+      .icon5_footer {
+        font-size: 36px;
+      }
+      .icon6_footer {
+        font-size: 36px;
+      }
+  }
