@@ -42,6 +42,39 @@
   height: 250px;
 }
 
+/* ANIMATIONS */
+#fade-in-left{
+  opacity: 0;
+  left: 0;
+  animation: fadeInAnimationLeft 1s ease 1s forwards;
+}
+@keyframes fadeInAnimationLeft{
+  from{
+    opacity: 0;
+    transform: translateX(-1000px);
+  }
+  to{
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+#fade-in-right{
+  opacity: 0;
+  right: 0;
+  animation: fadeInAnimationRight 1s ease 0.5s forwards;
+}
+@keyframes fadeInAnimationRight{
+  from{
+    opacity: 0;
+    transform: translateX(1000px);
+  }
+  to{
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
 @media screen and (max-width: 900px) {
   .about_banner_second_container {
     flex-direction: column;

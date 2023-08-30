@@ -203,6 +203,20 @@
   display: block;
 }
 
+/* ANIMATIONS */
+#fade-in-top{
+  
+  animation: fadeAnimationTop 1s ease-in-out;
+}
+@keyframes fadeAnimationTop {
+  from{
+    transform: translateY(-100%);
+  }
+  to{
+    transform: translateY(0);
+  }
+}
+
 @media screen and (max-width: 970px) {
   .mid_section_header a {
     margin-left: 1.188rem;

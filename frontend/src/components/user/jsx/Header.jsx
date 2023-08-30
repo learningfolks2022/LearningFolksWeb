@@ -23,7 +23,7 @@ const Header = () => {
   window.addEventListener('scroll', changeShadow);
 
   return (
-    <div className={shadow ? "header_header header_shadow_header" : "header_header"}>
+    <div id="fade-in-top" className={shadow ? "header_header header_shadow_header" : "header_header"}>
       <div className="left_section_header">
         <Link to="/">
           <img src={Logo} alt="learning" />

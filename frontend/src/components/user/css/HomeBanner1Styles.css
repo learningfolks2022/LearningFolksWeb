@@ -103,6 +103,38 @@ color: #3f3f3f;
     font-size: 28px;
 }
 
+/* ANIMATIONS */
+#fade-in-left{
+    opacity: 0;
+    left: 0;
+    animation: fadeInAnimationLeft 1s ease;
+}
+@keyframes fadeInAnimationLeft{
+    from{
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+#fade-in-right{
+    opacity: 0;
+    right: 0;
+    animation: fadeInAnimationRight 1s ease;
+}
+@keyframes fadeInAnimationRight{
+    from{
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
 
 @media screen and (max-width: 900px) {
     .top_section_homebanner1 h2 {
