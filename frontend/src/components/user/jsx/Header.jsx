@@ -39,6 +39,7 @@ const Header = () => {
             <li><Link to="/collaborate">Collaborate</Link></li>
             <li><a href="#">More »</a>
               <ul className="dropdown">
+              
                 <li><Link to="/about">About</Link></li>
                 <li><Link to="/careers">Careers</Link></li>
               </ul>
