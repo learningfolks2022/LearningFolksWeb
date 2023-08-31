@@ -111,6 +111,26 @@
   color: var(--para-color);
 }
 
+.read_more{
+  background-color: transparent;
+  color:var(--primary-color); 
+  padding: 10px 25px;
+  border: 2px solid var(--primary-color);
+  outline: none;
+  border-radius: 10px;
+  transition: 0.2s ease-in-out;
+  width: 130px;
+  font-size: 20px;
+  margin-top: -28px;
+}
+
+.read_more:hover{
+  transform: scale(1.01);
+  background-color: var(--primary-light);
+  color: white;
+  cursor: pointer;
+}
+
 @media screen and (max-width: 1020px) {
   .main_container_homebanner5 {
     padding: 60px 40px;
