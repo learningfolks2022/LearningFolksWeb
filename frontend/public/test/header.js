@@ -11,10 +11,16 @@ document.addEventListener("DOMContentLoaded", () => {
       </div>
       <div class="right_section_header">
         <div class="mid_section_header">
-          <ul>
+          <ul class='nav'>
             <li><a href="/">Home</a></li>
-            <li><a href="/about">About Us</a></li>
+            <li><a href="/blog">Blog</a></li>
             <li><a href="/collaborate">Collaborate</a></li>
+            <li><a href="#">More »</a>
+            <ul class='dropdown'>
+              <li><a href='/about'>About</a></li>
+              <li><a href='/careers'>Careers</a></li>
+            </ul>
+            </li>
             <li><a href="https://courses.learningfolks.in/s/store" style="font-size: 20px; color: blue;">Courses</a></li>
           </ul>
         </div>
