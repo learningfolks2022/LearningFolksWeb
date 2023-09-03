@@ -9,6 +9,10 @@ document.addEventListener("DOMContentLoaded", () => {
           <img src="logo.png" alt="learning" />
         </a>
       </div>
+      <div class="hamburger_header">
+          <span class="hamburger_icon_header" id="hamburgerIcon">&#9776;</span>
+      </div>
+      <br/>
       <div class="right_section_header">
         <div class="mid_section_header">
           <ul class='nav'>
@@ -24,9 +28,7 @@ document.addEventListener("DOMContentLoaded", () => {
             <li><a href="https://courses.learningfolks.in/s/store" style="font-size: 20px; color: blue;">Courses</a></li>
           </ul>
         </div>
-        <div class="hamburger_header">
-          <span class="hamburger_icon_header" id="hamburgerIcon">&#9776;</span>
-        </div>
+        
       </div>
     </div>
   `;
